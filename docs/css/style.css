@@ -188,15 +188,15 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	width: 100%;
 	padding: 0;
 	background-color: #e5e5e5;
-	filter: blur(5px);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
 }
 .intro .overlay {
+	background: rgba(0,0,0,0.2);
 	background-image: url('https://www.submarinoviagens.com.br/bora-nessa-trip/wp-content/uploads/2020/10/nordeste-praias-bonitas.jpg');
-	background-color: red;
+	background-size: cover;
 }
 .intro h1 {
 	font-family: 'Raleway', sans-serif;
