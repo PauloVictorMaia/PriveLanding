@@ -47,7 +47,7 @@ export const Contact = (props) => {
                 </p>
               </div>
               <form name='sentMessage' validate onSubmit={handleSubmit}>
-                <div className='row'>
+                {/* <div className='row'>
                   <div className='col-md-6'>
                     <div className='form-group'>
                       <input
@@ -76,8 +76,8 @@ export const Contact = (props) => {
                       <p className='help-block text-danger'></p>
                     </div>
                   </div>
-                </div>
-                <div className='form-group'>
+                </div> */}
+                {/* <div className='form-group'>
                   <textarea
                     name='message'
                     id='message'
@@ -88,10 +88,10 @@ export const Contact = (props) => {
                     onChange={handleChange}
                   ></textarea>
                   <p className='help-block text-danger'></p>
-                </div>
+                </div> */}
                 <div id='success'></div>
                 <button style={{margin: 10}} type='submit' className='btn btn-custom btn-lg'>
-                  Enviar dados
+                  Falar com representante
                 </button>
                 <button style={{margin: 10}} type='submit' className='btn btn-custom btn-lg'>
                   Assinar agora

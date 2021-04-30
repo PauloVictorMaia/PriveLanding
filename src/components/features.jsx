@@ -1,4 +1,21 @@
 import './styles.css';
+import styled from 'styled-components'
+
+const Container = styled.div`
+ display: flex;
+ width: 100%;
+ @media(max-width: 768px){
+   flex-direction: column;
+   align-items: center;
+ }
+`
+
+const Item = styled.div`
+ 
+ @media(max-width: 768px){
+  width: 100%;
+ }
+`
 
 export const Features = (props) => {
   return (
@@ -7,17 +24,17 @@ export const Features = (props) => {
         <div className='col-md-10 col-md-offset-1 section-title'>
           <h2>Vantagens</h2>
         </div>
-        <div className='feature-container'>
+        <Container>
           {props.data
             ? props.data.map((d, i) => (
-                <div key={i} className='col-xs-6 col-md-3'>
+                <Item key={i} className='col-xs-6 col-md-3'>
                   <i className={d.icon}></i>
                   <h3>{d.title}</h3>
                   <p>{d.text}</p>
-                </div>
+                </Item>
               ))
             : 'Loading...'}
-        </div>
+        </Container>
       </div>
     </div>
   )

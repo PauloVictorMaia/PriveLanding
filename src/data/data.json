@@ -6,18 +6,18 @@
 
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "paragraph": "Uma empresa especializada em turismo com mais de 20 de anos de experiência no mercado, tendo o objetivo de unir tudo que acreditamos ser o ideal para uma experiência turística perfeita para nossos associados, fornecendo todas as etapas de maneira centralizada e com garantia de uma experiência positiva.",
         "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
+            "Hospedagem Club de viagens",
+            "Pacotes Turísticos",
+            "Passagens aéreas",
+            "Cruzeiros"
         ],
         "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
+            "Locação de automóveis com condições especiais",
+            "Mais de 10 mil hotéis parceiros",
+            "Equipe especializada em turismo",
+            "Melhor custo benefício do mercado"
         ]
     },
     "Services": { 

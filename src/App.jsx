@@ -23,7 +23,7 @@ const App = () => {
   }, [])
 
   return (
-    <div>
+    <div style={{width: '100%'}}>
       <Navigation />
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
@@ -34,6 +34,16 @@ const App = () => {
       <Contact />
       {/* <Testimonials data={landingPageData.Testimonials} /> */}
       <Footer />
+      <a target='blank' href='https://api.whatsapp.com/send?phone=558587988723&text=Ol%C3%A1%2C%20vim%20pelo%20site%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20a%20respeito%20do%20Priv%C3%AA%20Residence%20Club'>
+        <img src='img/whatsapp.svg' style={{
+          position: 'fixed',
+          width: 70,
+          height: 'auto',
+          bottom: 50,
+          right: 30,
+          cursor: 'pointer'
+        }} />
+      </a>
     </div>
   )
 }
