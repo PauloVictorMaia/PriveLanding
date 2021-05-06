@@ -28,8 +28,8 @@ const App = () => {
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
-      <Services title='Hotéis Próprios' subTitle='Esses são nossos hotéis próprios onde nossos associados tem o acesso com total comodidade' data={landingPageData.Services} />
-      <Services title='Possíveis destinos' subTitle='Além de acesso a nossa rede de hoteis próprios e parceiros, você tem acesso a uma agência de viagens totalmente exclusiva para visitar os mais diversos destinos com os melhores valores e acessibilidade' data={landingPageData.ServicesC} />
+      <Services title='Hotéis Próprios' subTitle='Esses são alguns de nossos hotéis próprios onde nossos associados tem o acesso com total comodidade, nossa equipe também está sempre adquirindo novas instalações para os associados' data={landingPageData.Services} />
+      <Services title='Possíveis destinos' subTitle='Além de acesso a nossa rede de hoteis próprios, você tem acesso a uma rede de hotéis parceiros nacionais e internacionais e um club/agência de viagens totalmente exclusiva para visitar os mais diversos destinos com os melhores valores e acessibilidade' data={landingPageData.ServicesC} />
       <Gallery />
       <Contact />
       {/* <Testimonials data={landingPageData.Testimonials} /> */}

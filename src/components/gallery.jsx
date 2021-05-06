@@ -6,21 +6,20 @@ export const Gallery = props => {
   const [isViewerOpen, setIsViewerOpen] = useState(false);
 
   const data = [
-    { thumb: "img/portfolio/01-small.jpg", title: "Lorem Ipsum1" },
-    { thumb: "img/portfolio/02-small.jpg", title: "Lorem Ipsum2" },
-    { thumb: "img/portfolio/03-small.jpg", title: "Lorem Ipsum3" },
-    { thumb: "img/portfolio/04-small.jpg", title: "Lorem Ipsum4" },
-    { thumb: "img/portfolio/05-small.jpg", title: "Lorem Ipsum5" },
-    { thumb: "img/portfolio/06-small.jpg", title: "Lorem Ipsum6" },
-    { thumb: "img/portfolio/07-small.jpg", title: "Lorem Ipsum7" },
-    { thumb: "img/portfolio/08-small.jpg", title: "Lorem Ipsum8" },
-    { thumb: "img/portfolio/09-small.jpg", title: "Lorem Ipsum9" }
+    { thumb: "img/image1.jpeg", title: "Cumbuco" },
+    { thumb: "img/image2.jpeg", title: "Cumbuco" },
+    { thumb: "img/image3.jpeg", title: "Cumbuco" },
+    { thumb: "img/image4.jpeg", title: "Cumbuco" },
+    { thumb: "img/image5.jpeg", title: "Cumbuco" },
+    { thumb: "img/image6.jpg", title: "Guaramiranga" },
+    { thumb: "img/image7g.jpg", title: "Guaramiranga" },
+    { thumb: "img/image8g.jpg", title: "Guaramiranga" },
   ];
 
   const images = data.map(obj => obj.thumb.replace("-small", "-large"));
 
   const openImageViewer = useCallback(index => {
-    setCurrentImage(index);
+    setCurrentImage(index); 
     setIsViewerOpen(true);
   }, []);
 

@@ -22,36 +22,24 @@
     },
     "Services": { 
         "title": "Hotéis Próprios",
-        "subTitle": "Esses são nossos hotéis próprios onde nossos associados tem o acesso com total comodidade",
+        "subTitle": "Esses são alguns de nossos hotéis próprios onde nossos associados tem o acesso com total comodidade, Privê residence club está sempre fazendo novas aquisições para oferecer sempre o melhor para nossos associados",
         "data": [{
             "icon": "fa fa-wordpress",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "Cumbuco",
+            "text": "A Praia de Cumbuco, a cerca de 30 km de carro de Fortaleza, é uma das praias mais procuradas na região metropolitana. Ela está em um vilarejo calmo, com boa estrutura para passar o dia, onde se encontram alguns restaurantes e mar calminho",
+            "image": "cumbuco"
         },
         {
             "icon": "fa fa-cart-arrow-down",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "Fortim",
+            "text": "Fortim, no Ceará (em especial, a praia de Pontal de Maceió). Um vilarejo sossegado ao sul de Fortaleza (aproximadamente 2 horas de carro, em uma estrada ótima), pertinho de Canoa Quebrada. Fortim venta bastante e vem ficando conhecida para a prática de kitesurf.",
+            "image": "guaramiranga"
         },
         {
-            "icon": "fa fa-cloud-download",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-language",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-plane",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-pie-chart",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "icon": "fa fa-cart-arrow-down",
+            "name": "Guaramiranga",
+            "text": "É possível sentir frio também no Ceará! Na vila de Guaramiranga, encravada no Maciço de Baturité, a média anual das temperaturas é de vinte graus. No inverno, porém, os termômetros registram números ainda mais baixos.",
+            "image": "Fortim"
         }
     ]},
     "ServicesC": { 
@@ -59,33 +47,39 @@
         "subTitle": "Nossos hotéis parceiros fornecem os melhores preços e as melhores oportunidades para nossos associados",
         "data": [{
             "icon": "fa fa-wordpress",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "Fernando De Noronha",
+            "text": "",
+            "image": "Noronha"
         },
         {
             "icon": "fa fa-cart-arrow-down",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "Rio de Janeiro",
+            "text": "",
+            "image": "Rio"
         },
         {
             "icon": "fa fa-cloud-download",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "Jericoacoara",
+            "text": "",
+            "image": "Jeri"
         },
         {
             "icon": "fa fa-language",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "Disney",
+            "text": "",
+            "image": "Disney"
         },
         {
             "icon": "fa fa-plane",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "Cancún",
+            "text": "",
+            "image": "Cancún"
         },
         {
             "icon": "fa fa-pie-chart",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "Porto de Galinhas",
+            "text": "",
+            "image": "Porto"
         }
     ]},
     "Testimonials": [{

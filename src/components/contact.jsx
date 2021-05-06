@@ -42,9 +42,9 @@ export const Contact = (props) => {
             <div className='row'>
               <div className='section-title'>
                 <h2>O que está faltando para ter sempre as melhores férias da sua vida?</h2>
-                <p>
+                {/* <p>
                   Você pode realizar a compra totalmente on-line, mas se preferir pode deixar seus dados e um de nossos colaboradores vai entrar em contato, ou até mesmo mandar mensagem diretamente para nosso número com atendimento Whatsapp
-                </p>
+                </p> */}
               </div>
               <form name='sentMessage' validate onSubmit={handleSubmit}>
                 {/* <div className='row'>
@@ -90,12 +90,13 @@ export const Contact = (props) => {
                   <p className='help-block text-danger'></p>
                 </div> */}
                 <div id='success'></div>
-                <button style={{margin: 10}} type='submit' className='btn btn-custom btn-lg'>
-                  Falar com representante
-                </button>
-                <button style={{margin: 10}} type='submit' className='btn btn-custom btn-lg'>
-                  Assinar agora
-                </button>
+                <a 
+                href='https://api.whatsapp.com/send?phone=558587988723&text=Ol%C3%A1%2C%20vim%20pelo%20site%2C%20tenho%20interesse%20de%20ser%20um%20associado%20Priv%C3%AA%20Residence%20Club%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.'
+                style={{margin: 10}} type='submit' className='btn btn-custom btn-lg'
+                target='blank'
+                >
+                  Falar com representante 
+                </a>
               </form>
             </div>
           </div>

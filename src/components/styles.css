@@ -1,3 +1,22 @@
 .features-container {
   background-color: red;
 }
+
+.flex-direction {
+  display: flex;
+}
+
+.row-effect {
+  display: flex;
+}
+
+@media(max-width: 768px){
+  .flex-direction {
+    flex-direction: column;
+  }
+
+  .row-effect {
+    flex-direction: column;
+  }
+}
+
