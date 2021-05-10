@@ -13,16 +13,6 @@
   }
 }
 
-.flex-direction {
-  display: flex;
-}
-
-@media(min-width: 768px){
-  .flex-direction {
-    flex-direction: column;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
